@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.whole{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.logo{
+   width: 200px;
+   height: 200px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    margin-top: -50px;
+    padding: 0px 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+nav ul li{
+    font-size: 22px;
+    display: inline;
+    list-style: none;
+    margin: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+.navh:hover{
+    text-decoration: underline;
+    font-size: 24px;
+}
+.download{
+    background-color: palegreen;
+    font-size: 20px;
+    border: 10px solid palegreen;
+    border-radius: 110px;
+    font-weight: 600;
+}
+.download:hover{
+    color: black;
+    background-color: rgb(107, 244, 107);
+    border: 12px solid rgb(107, 244, 107);
+}
+.logo{
+    padding-top: 10px;
+    height: 150px;
+    width: 150px;
+}
+.txt1{
+    margin-top: -230px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 400px;
+    border: 20px solid palegreen;
+    border-radius: 100px;
+    background-color: palegreen;
+    margin-left: 650px;
+}
+.txt1:hover{
+    color: aliceblue;
+    background-color: black;
+    border: 20px solid black;
+}
+.txt2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 500px;
+    border: 20px solid palegreen;
+    border-radius: 100px;
+    background-color: palegreen;
+    margin-left: 600px;
+}
+.txt2:hover{
+    color: aliceblue;
+    background-color: black;
+    border: 20px solid black;
+}
+.para{
+    padding-top: 200px;
+}
+h1{
+    padding-left: 100px;
+}
+.img1{
+    height: 280px;
+    display: flex;
+    justify-content: end;
+    padding-right: 80px;
+    margin-top: -380px;
+    border: 40px solid white;
+}
+.box{
+    padding-top: 80px;
+    width: 1000px;
+    display: flex;
+    justify-content:space-evenly space-between;
+    text-align: center;
+}
+.word{
+    width: 400px;
+    padding-left: 20px;
+}
+.wordh1{
+    margin-right: 70px;
+}
+.proj{
+    font-size: 60px;
+    padding-left: 480px;
+}
+.box2{
+    padding-top: 70px;
+    width: 1200px;
+    display: flex;
+    padding-left: 30px;
+    justify-content: space-evenly;
+}
+.pic{
+    height: 120px;
+    width: 120px;
+    padding-left: 90px;
+}
+.contact{
+    padding-top: 80px;
+    width: 1000px;
+    display: flex;
+    justify-content:space-evenly;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 450px;
+}
+.name{
+    width: 480px;
+    height: 40px;
+}
+.email{ 
+    width: 480px;
+    height:40px;
+}
+.message{
+    width: 480px;
+    height: 100px;
+}
+.btn{
+    font-size: large;
+    width: 150px;
+    height: 50px;
+    border: 12px solid palegreen;
+    border-radius: 100px;
+    margin-left: 150px;
+    background-color: palegreen;
+    font-weight: 500;
+}
+.btn:hover{
+    color: whitesmoke;
+    background-color: black;
+    border: 12px solid black;
+}
+.icons a{
+    font-size: 15px;
+}
+.icons a i{
+    font-size: 2em;
+    color: rgb(104, 243, 104);
+}
+.icons a:hover{
+    color: white;
+    background-color: black;
+    border-radius: 60px;
+    height: 100px;
+    width: 100px;
+}
+.project{
+    width: 100px;
+    height: 100px;
+}
